@@ -6,7 +6,7 @@
 
 - I have set myself a few challenges to complete:
 
-  1. A grid of 3 boxes - 2 on left, one above the other, one right taking whole column.
+  1. ~~A grid of 3 boxes - 2 on left, one above the other, one right taking whole column.~~
 
   2. A grid of 4 boxes each taking up the same area
 
@@ -28,4 +28,12 @@
 
 As I progress with these challenges I will write accounts or insert images of the completed challenge.
 
-1. 
+1.
+
+  ![Challenge One](Pics/challenge1.png)
+
+  - Challenge completed using a simple Grid -
+      - 3 column Lines! = 2 Columns!
+      - 3 Row Lines = 2 full rows!
+  - Added Border radius 8px to make curve
+  - Added grid-column/row-gap of 10px & 5px.

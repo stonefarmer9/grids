@@ -1,0 +1,40 @@
+.Container{
+  
+  display: grid;
+  grid-template-columns: [one] 150px [two] 150px [end];
+  grid-template-rows: [row1] 75px [row2] 75px [row-end];
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+}
+
+.One {
+  background-color: blue;
+  grid-column-start: one;
+  grid-column-end: two;
+  grid-row-start: row1;
+  grid-row-end: row2;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.Two {
+  background-color: green;
+  grid-column-start: one;
+  grid-column-end: two;
+  grid-row-start: row2;
+  grid-row-end: row-end;
+  border-radius: 8px;
+  text-align: center;
+
+}
+
+.Three {
+  background-color: red;
+  grid-column-start: two;
+  grid-row-end: end;
+  grid-row-start: row1;
+  grid-row-end: row-end;
+  border-radius: 8px;
+  text-align: center;
+
+}
