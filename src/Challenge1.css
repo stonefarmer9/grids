@@ -1,5 +1,5 @@
 .Container{
-  
+
   display: grid;
   grid-template-columns: [one] 150px [two] 150px [end];
   grid-template-rows: [row1] 75px [row2] 75px [row-end];

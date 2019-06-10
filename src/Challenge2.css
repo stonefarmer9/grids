@@ -1,0 +1,47 @@
+.Container2 {
+  text-align: center;
+
+
+  display: grid;
+  grid-template-columns: [one] 150px [two] 150px [end];
+  grid-template-rows: [row1] 100px [row2] 100px [rowend];
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+}
+
+.uno {
+
+  grid-column: one / two;
+  grid-row: row1 / row2;
+  background-color: yellow;
+
+  border-radius: 8px;
+
+}
+
+.dos {
+  grid-column: two / end;
+  grid-row: row1 / row2;
+
+  background-color: purple;
+  border-radius: 8px;
+
+}
+
+.tres {
+  grid-column: one / two;
+  grid-row: row2 / rowend;
+
+  background-color: orange;
+  border-radius: 8px;
+
+}
+
+.quattro {
+  grid-column: two / end;
+  grid-row: row2 / rowend;
+
+  background-color: grey;
+  border-radius: 8px;
+
+}
