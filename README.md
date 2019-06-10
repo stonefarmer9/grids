@@ -24,6 +24,17 @@
 
   9. 8, but with no other div being affected.
 
+## Approach
+
+  There is not much of an approach to this project other than completing the challenges set for myself and any other challenges I conjure during.
+
+  Importantly in a break from my other Projects I will not:
+      - Test in any way shape or form.
+      - Semantic Commits will be gone.
+      - SOLID does not exist in this repo
+      - Clean Code is not relevant here as repetition is key to learning. 
+
+
 ## Progress
 
 As I progress with these challenges I will write accounts or insert images of the completed challenge.
