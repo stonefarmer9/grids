@@ -8,7 +8,7 @@
 
   1. ~~A grid of 3 boxes - 2 on left, one above the other, one right taking whole column.~~
 
-  2. A grid of 4 boxes each taking up the same area
+  2. ~~A grid of 4 boxes each taking up the same area~~
 
   3. A grid of 4 boxes in a grid of varying column size
 
@@ -32,7 +32,7 @@
 - Test in any way shape or form.
 - Semantic Commits will be gone.
 - SOLID does not exist in this repo
-- Clean Code is not relevant here as repetition is key to learning. 
+- Clean Code is not relevant here as repetition is key to learning.
 
 
 ## Progress
@@ -48,3 +48,12 @@ As I progress with these challenges I will write accounts or insert images of th
       - 3 Row Lines = 2 full rows!
   - Added Border radius 8px to make curve
   - Added grid-column/row-gap of 10px & 5px.
+
+
+2.
+
+  ![Challenge Two](Pics/challenge2.png)
+
+  - Challenge completed using same grid as above
+  - Used the simpler grid-column / grid-row definition for grid placement rather than grid-column/row-start/end
+  - Each grid will be loaded into its own Challenge CSS file so all challenges CSS is kept separate.
