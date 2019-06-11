@@ -1,0 +1,55 @@
+.Container4 {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(3, 150px [columnStart]);
+  grid-template-rows: [one] 100px [two] 150px [three] 100px [end];
+  text-align: center;
+}
+
+.fourA {
+  background-color: blue;
+  grid-column: columnStart 0 / columnStart 1;
+  grid-row: one / three;
+  border-radius: 8px;
+}
+
+.fourB {
+  background-color: teal;
+  grid-column: columnStart 0 / columnStart 1;
+  grid-row: three / end;
+  border-radius: 8px;
+
+
+}
+
+.fourC {
+  background-color:  magenta;
+  grid-column: columnStart 1 / columnStart 3;
+  grid-row: one / two;
+  border-radius: 8px;
+
+}
+
+.fourD {
+  background-color: cyan;
+  grid-column: columnStart 1 / columnStart 2;
+  grid-row: two / end;
+  border-radius: 8px;
+
+}
+
+.fourE {
+  background-color: purple;
+  grid-column: columnStart 2 / columnStart 3;
+  grid-row: two / three;
+  border-radius: 8px;
+
+}
+
+.fourF {
+  background-color: green;
+  grid-column: columnStart 2 / columnStart 3;
+  grid-row: three / end;
+  border-radius: 8px;
+
+}

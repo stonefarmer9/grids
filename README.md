@@ -49,6 +49,7 @@ As I progress with these challenges I will write accounts or insert images of th
       - 3 Row Lines = 2 full rows!
   - Added Border radius 8px to make curve
   - Added grid-column/row-gap of 10px & 5px.
+  - N.B black border at top is from chrome browser NOT css.
 
 
 2.
@@ -66,3 +67,5 @@ As I progress with these challenges I will write accounts or insert images of th
   - Basically replicating the CSS grid docs example.
   - Continued use of the shorthand notation of column/row
   - Changed to 6 boxes for challenge description as is a better fit for the actual challenge.
+  - Column lengths are: 150px, 300px, 150px
+  - Rows standard at 50px
