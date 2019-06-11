@@ -1,0 +1,26 @@
+.App {
+  background-color: #c4e2ff;
+  display: grid;
+  grid-template-columns: [one] 350px [two] 350px [three] 350px [four] 350px [end];
+  grid-template-rows: repeat(5, 225px [row]);
+}
+
+.Container {
+  grid-column: one / two;
+  grid-row: row 0 / row 1;
+}
+
+.Container2 {
+  grid-column: two / three;
+  grid-row: row 0 / row 1;
+}
+
+.Container3 {
+  grid-column: three / four;
+  grid-row: row 0 / row 1;
+}
+
+.Container4 {
+  grid-column: one / two;
+  grid-row: row 1 / row 2;
+}

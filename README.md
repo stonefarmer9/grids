@@ -15,7 +15,7 @@
 
   4. ~~A grid of 6 boxes with varying row size each spanning multiple rows or columns.~~
 
-  4.1. Nest Current challenges in a new parent grid. 
+  4.1. ~~Nest Current challenges in a new parent grid.~~
 
   5. A grid of 3 boxes, onClick will open a new box.
 
@@ -80,3 +80,15 @@ As I progress with these challenges I will write accounts or insert images of th
   - Used the repeat notation to define columns, note the 1st argument in the repeat function is the number of COLUMNS not lines created.
   - Used 6 Divs, and placed them to take up multiple rows and columns. Using four was too similar to challenge 3.
   - All colours used so far use the name as a string rather than HTML colour picker # code
+
+4.1
+
+  ![Challenge Four.One](Pics/challenge4.1.png)
+  - Important learning from this, it seems to have been a lot easier nesting the grids working from the inner grids to the outer. Unsure if this is convention or simply personal preference.
+  - Another important learning - You can have two CSS files which both contain CSS for the same element, it seems as long as the two different style sheets don't overwrite each other they will work in tandem.
+  The case in point here:
+      - My App css file contains the grid co-ordinates for Containers 1-4.
+      - Each container has its own Challenge CSS file which styles their own grids and their own internal properties.
+
+        - This seems like a good separation of concerns in my style sheets, making it easier to move the layout at a later date. Thus the code is easily changed.
+          - The question remains though whether it is bad practice as now the same element has multiple files attached and increases your dependancies.
