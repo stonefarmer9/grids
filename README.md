@@ -15,6 +15,8 @@
 
   4. ~~A grid of 6 boxes with varying row size each spanning multiple rows or columns.~~
 
+  4.1. Nest Current challenges in a new parent grid. 
+
   5. A grid of 3 boxes, onClick will open a new box.
 
   6. onClick opens a new box without affecting the position of the other boxes.
