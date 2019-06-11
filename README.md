@@ -11,6 +11,7 @@
   2. ~~A grid of 4 boxes each taking up the same area~~
 
   3. A grid of 4 boxes in a grid of varying column size
+    ![challenge3 example](Pics/challenge3example.png)
 
   4. A grid of 4 boxes with varying row size.
 

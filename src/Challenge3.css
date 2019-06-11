@@ -1,0 +1,54 @@
+.Container3 {
+  display: grid;
+  grid-template-rows: [one] 50px [two] 50px [rowEnd];
+  grid-template-columns: [one] 150px [two] 300px [three] 150px [end];
+  grid-column-gap: 5px;
+  grid-row-gap: 10px;
+  text-align: center;
+
+}
+
+.A {
+  grid-column: one / two;
+  grid-row: one /two;
+  background-color: green;
+  border-radius: 8px;
+}
+
+.B {
+  grid-column: two / three;
+  grid-row: one/two;
+  background-color: red;
+  border-radius: 8px;
+
+}
+
+.C {
+  grid-column: three / end;
+  grid-row: one / two;
+  background-color: blue;
+  border-radius: 8px;
+}
+
+.D {
+  grid-column: one / two;
+  grid-row: two / rowEnd;
+  background-color: purple;
+  border-radius: 8px;
+}
+
+.E {
+  grid-column: two / three;
+  grid-row: two / rowEnd;
+  background-color: gold;
+  border-radius: 8px;
+
+}
+
+.F {
+  grid-column: three / end;
+  grid-row: two / rowEnd;
+  background-color: brown;
+  border-radius: 8px;
+
+}
