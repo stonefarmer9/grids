@@ -13,7 +13,7 @@
   3. ~~A grid of 6 boxes in a grid of varying column size~~
     ![challenge3 example](Pics/challenge3example.png)
 
-  4. A grid of 4 boxes with varying row size.
+  4. ~~A grid of 6 boxes with varying row size each spanning multiple rows or columns.~~
 
   5. A grid of 3 boxes, onClick will open a new box.
 
