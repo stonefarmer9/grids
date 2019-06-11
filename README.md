@@ -10,7 +10,7 @@
 
   2. ~~A grid of 4 boxes each taking up the same area~~
 
-  3. A grid of 4 boxes in a grid of varying column size
+  3. ~~A grid of 6 boxes in a grid of varying column size~~
     ![challenge3 example](Pics/challenge3example.png)
 
   4. A grid of 4 boxes with varying row size.
@@ -58,3 +58,11 @@ As I progress with these challenges I will write accounts or insert images of th
   - Challenge completed using same grid as above
   - Used the simpler grid-column / grid-row definition for grid placement rather than grid-column/row-start/end
   - Each grid will be loaded into its own Challenge CSS file so all challenges CSS is kept separate.
+
+3.
+
+  ![Challenge Three](Pics/challenge3.png)
+
+  - Basically replicating the CSS grid docs example.
+  - Continued use of the shorthand notation of column/row
+  - Changed to 6 boxes for challenge description as is a better fit for the actual challenge.
