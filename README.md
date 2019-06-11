@@ -69,3 +69,12 @@ As I progress with these challenges I will write accounts or insert images of th
   - Changed to 6 boxes for challenge description as is a better fit for the actual challenge.
   - Column lengths are: 150px, 300px, 150px
   - Rows standard at 50px
+
+
+4.
+
+  ![Challenge Four](Pics/challenge4.png)
+
+  - Used the repeat notation to define columns, note the 1st argument in the repeat function is the number of COLUMNS not lines created.
+  - Used 6 Divs, and placed them to take up multiple rows and columns. Using four was too similar to challenge 3.
+  - All colours used so far use the name as a string rather than HTML colour picker # code
